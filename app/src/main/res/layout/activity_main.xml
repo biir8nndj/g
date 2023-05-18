@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bgapp"
+    android:backgroundTintMode="add"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:numStars="3"
+        android:progressDrawable="@drawable/ym"
+        android:rating="3"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <RatingBar
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="28dp"
+        android:numStars="3"
+        android:progressDrawable="@drawable/ym"
+        android:rating="3"
+        app:layout_constraintStart_toStartOf="@+id/ratingBar2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="64dp"
+        android:numStars="3"
+        android:progressDrawable="@drawable/ym"
+        android:rating="3"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <TextView
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#21E1F3"
+        android:backgroundTint="#21E1F3"
+        android:text="S"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <TextView
+        android:id="@+id/button1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:background="#21E1F3"
+        android:backgroundTint="#21E1F3"
+        android:text="A"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <TextView
+        android:id="@+id/button3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#21E1F3"
+        android:backgroundTint="#21E1F3"
+        android:text="G"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <TextView
+        android:id="@+id/button4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#21E1F3"
+        android:text="R"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <TextView
+        android:id="@+id/button5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:background="#21E1F3"
+        android:backgroundTint="#21E1F3"
+        android:text="S"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/button6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#21E1F3"
+        android:backgroundTint="#21E1F3"
+        android:text="F"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/button7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#21E1F3"
+        android:backgroundTint="#21E1F3"
+        android:text="H"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/button8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#21E1F3"
+        android:backgroundTint="#21E1F3"
+        android:text="E"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/button9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:autoText="true"
+        android:background="#21E1F3"
+        android:text="Q"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/button10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#21E1F3"
+        android:text="I"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/button11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#21E1F3"
+        android:text="L"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/button12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#21E1F3"
+        android:text="Z"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/button13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="224dp"
+        android:background="#21E1F3"
+        android:text="B"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+    <TextView
+        android:id="@+id/button14"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#21E1F3"
+        android:text="T"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/button15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#21E1F3"
+        android:text="P"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/button16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="208dp"
+        android:background="#21E1F3"
+        android:text="O"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:text="Reset"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <Button
+        android:id="@+id/check_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Check"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <TextView
+        android:id="@+id/displaytext"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_purple"
+        android:backgroundTint="@color/design_default_color_primary"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <ProgressBar
+
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <ProgressBar
+
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <ProgressBar
+
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        app:backgroundTint="@color/material_dynamic_primary80"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/round" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
